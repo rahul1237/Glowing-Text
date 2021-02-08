@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+    color: #39FF14;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.7s;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 2em;
+    color: #fff;
+}
+
+h1:hover,p:hover{
+    color: rgb(0, 0, 184);
+    text-shadow: 0 0 10px rgb(0, 0, 184),
+                 0 0 20px rgb(0, 0, 184),
+                 0 0 30px rgb(0, 0, 184),
+                 0 0 80px rgb(0, 0, 184);
+}
